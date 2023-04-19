@@ -28,6 +28,7 @@ header {
     position: fixed;
     top: 0;
     padding: 0 35px;
+    background-color: rgb(140, 141, 143);
 }
 
 .logo {
@@ -61,7 +62,7 @@ header {
 
 .menu li a {
     text-decoration:none;
-    color: rgb(8, 4, 252);
+    color: #fff;
 }
 
 .menu li a:hover {
@@ -86,6 +87,7 @@ main {
     align-items: center;
     height: 500px;
     width: 90%;
+    margin-bottom: 100px;
 }
 
 .divTitulo {
@@ -96,6 +98,7 @@ main {
     height: 100px;
     width: 55%;
     padding: 100px;
+    margin-top: 150px;
 }
 
 .divTitulo h3, 
