@@ -127,6 +127,7 @@ p {
 .divTitulo img {
     width: 400px;
     height: 450x;
+    margin-left: 200px;
 }
 
 .tituloRecomendações {
@@ -201,4 +202,66 @@ p {
    margin-top: 48px;
    height: 50px;
    width: 50%;
+}
+
+@media (max-width: 550px){
+    .menu{
+        display: block;
+        height: 0;
+        width: 100%;
+        z-index: 1001;
+        overflow-x: hidden;
+    }
+    .divTitulo{
+        margin-top: 325px;
+    }
+    .divTitulo h3 {
+        width: 250px;
+        margin-left: 50px;
+    }
+    .divTitulo h1 {
+        margin-left: 250px;
+        width: 450px;
+        margin-top: 25px;
+    }
+    .divTitulo p {
+        margin-left: 0px;
+        width: 200px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .divTitulo img {
+        margin-top: 200px;
+        margin-left: 125px;
+    }
+    .tituloRecomendações{
+        margin-top: 130px;
+    }
+    .recomendações{
+        margin-top: 0px;
+    }
+    .tag{
+        margin-bottom: 0px;
+        margin: 20px 20px; 
+    }
+    .tag img {
+        width: 50px;
+        height: 50px;
+        margin-left: -110px;
+    }
+    .tag h2{
+        margin-top: 5px;
+        font-size: 15px;
+        margin-left: -110px;
+    }
+    .tag p{
+        margin-left: -110px;
+        margin-top: 5px;
+        width: 190px;
+        height: 100px;
+        text-align: justify;
+    }
+    .linha h4{
+        margin-bottom: 0px;
+    }
 }
