@@ -205,6 +205,9 @@ p {
 }
 
 @media (max-width: 550px){
+    .logo{
+        margin-left: 100px;
+    }
     .menu{
         display: block;
         height: 0;
